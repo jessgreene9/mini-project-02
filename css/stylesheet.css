@@ -1,0 +1,90 @@
+* {
+    background-color: rgb(59, 57, 57);
+}
+
+
+header h1, header p{
+    text-align: center;
+    display: block;
+    
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: violet;
+}
+
+header p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 12px 12px;
+
+    
+}
+
+.boxes section {
+    display:block;
+    border: 1px dashed lightgrey;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 16px 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px 12px;
+    transition: 2s all ease-out;
+    box-shadow: 0px 0px 5px 5px violet;
+}
+
+h2 {
+    display: flex;
+    border: 1px solid LIGHTgray;
+    width: 200px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    margin: -20px 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: violet; 
+    font-size: 16px;
+    border-radius: 12px 12px;
+   
+}
+
+h2:hover {
+    color: aqua;
+}
+
+.boxes p {
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: violet;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+
+}
+
+
+code {
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    width: 200px;
+    height: 120px;
+    background-image: linear-gradient( rgba(232, 102, 236, 0.3)0%, rgba(232, 102, 236, 0.6)100%);
+    border-radius: 12px 12px;
+    user-select: all;
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        display: flex;}
+    }
